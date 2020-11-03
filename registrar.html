@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Papeleria</title>
+	<link rel="stylesheet" type="text/css" href="registrar.css">
+</head>
+<body >
+	<header>
+	</br>
+	</br>
+	</br>
+		<h1 class="titulo">Bienvenidos a la papeleria</h1>
+		</br>
+		</br>
+		</br>
+		</br>
+		<h2 class="subti">Dentro de esta pagina podras comparar y comprar entre la extensa variedad de articulos que tenemos para ti, a los mejores precios que podras encontrar</h2>
+	</header>
+	<div >
+		<h3 align="center"></br>Lista de articulos disponibles</h3>
+		<table class="table" border="2">
+			<tr>
+				<th>Folio</th>
+			    <th>Nombre</th>
+			    <th>Marca</th>
+			    <th>Precio</th>
+			</tr>
+			<tr>
+				<td>001</td>
+				<td>Libreta Profesional Rayada</td>
+				<td>Scribe</td>
+				<td>$20</td>
+			</tr>
+			<tr>
+				<td>002</td>
+				<td>Libreta Profesional Cuadrada</td>
+				<td>Scribe</td>
+				<td>$20</td>
+			</tr>
+			<tr>
+				<td>003</td>
+				<td>Libreta Profesional Blanca</td>
+				<td>Scribe</td>
+				<td>$20</td>
+			</tr>
+			<tr>
+				<td>004</td>
+				<td>Lapicero punto fino negro</td>
+				<td>Bic</td>
+				<td>$5</td>
+			</tr>
+			<tr>
+				<td>005</td>
+				<td>Lapicero punto fino rojo</td>
+				<td>Bic</td>
+				<td>$5</td>
+			</tr>
+			<tr>
+				<td>006</td>
+				<td>Lapicero punto fino azul</td>
+				<td>Bic</td>
+				<td>$5</td>
+			</tr>
+			<tr>
+				<td>007</td>
+				<td>Lapicero punto mediano negro</td>
+				<td>Bic</td>
+				<td>$4</td>
+			</tr>
+			<tr>
+				<td>008</td>
+				<td>Lapicero punto mediano rojo</td>
+				<td>Bic</td>
+				<td>$4</td>
+			</tr>
+			<tr>
+				<td>009</td>
+				<td>Lapicero punto mediano azul</td>
+				<td>Bic</td>
+				<td>$4</td>
+			</tr>
+			<tr>
+				<td>010</td>
+				<td>Lapiz No. 2</td>
+				<td>Mirado</td>
+				<td>$4.5</td>
+			</tr>
+			<tr>
+				<td>011</td>
+				<td>Lapiz No. 2</td>
+				<td>MAPED</td>
+				<td>$5</td>
+			</tr>
+			<tr>
+				<td>012</td>
+				<td>Paquete de 12 colores</td>
+				<td>Prismacolor</td>
+				<td>$94</td>
+			</tr>
+			<tr>
+				<td>013</td>
+				<td>Paquete de 12 colores</td>
+				<td>Mapita</td>
+				<td>$29</td>
+			</tr>
+			<tr>
+				<td>014</td>
+				<td>Paquete de 24 colores</td>
+				<td>Norma</td>
+				<td>$215</td>
+			</tr>
+			<tr>
+				<td>015</td>
+				<td>Paquete de 24 colores</td>
+				<td>Mapita</td>
+				<td>$72</td>
+			</tr>
+
+
+		</table>
+	</div>
+
+	<div class="form">
+		<h1 align="center">Compra de articulos</h1>
+		<form action="guardar.php" method="post">
+			<a>Ingresa tu nombre:</a></br></br><input type="text" name="nombre" placeholder="Nombre" required></br>
+			</br><a>Ingresa el folio de los archivos que vas a comprar:</a></br></br><input type="text" name="folio" placeholder="001,005,012" required></br>
+			</br><a>Ingresa tu correo electronico:</a></br></br><input type="email" name="correo" placeholder="Correo Electronico" required></br>
+			</br><a>Ingresa la fecha de tu compra:</a></br></br><input type="date" name="fecha" required></br></br>
+			<input type="submit" name="guardar"  value="Comprar">
+
+		</form>
+	</div>
+
+
+</body>
+</html>
