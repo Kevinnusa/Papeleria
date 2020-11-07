@@ -1,0 +1,60 @@
+body{
+	background-color:#F4F43D;
+	width: 100%;
+}
+.actualizar{
+	position:relative;
+	width:500px;
+	height:520px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color:#6A42EF;
+	border-radius: 20px;
+	margin: 100px auto;
+}
+input[type=text],[type=email],[type=date]{
+	width:470px;
+	height:35px;
+	font-size: 14px; 
+	background-color: #83F740;
+} 
+
+input[type=submit]{
+	position:relative;
+	width:150px;
+	height:40px;
+	border-radius:20px;
+	margin: 10px 150px;
+	border:0px;
+	background-color:#F15F5F ;
+	color: white;
+	font-size: 14px;  
+}
+.borrar{
+	position:relative;
+	width:500px;
+	height:200px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color:#6A42EF;
+	border-radius: 20px;
+	margin: 100px auto;
+}
+.titulo1{
+	text-align:center; 
+	font-size:25px;
+	color: #000000;
+	text-transform: uppercase;
+	text-shadow:0px 1px 0px #fff;
+}
+.boton{
+	position:relative;
+	width:150px;
+	height:50px;
+	border-radius:20px;
+	margin: 30px 30px;
+	border:0px;
+	background-color:#B68A95;
+	color: white;
+	font-size: 14px; 
+}

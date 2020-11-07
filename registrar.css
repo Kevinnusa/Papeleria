@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+}
+header{
+	background: url(img/fondo.jpg);
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+body{
+	background-color:#F4F43D;
+	width: 100%;
+}
+
+.titulo{
+	font-size:  80px;
+	text-align: center;
+	color: black;
+}
+
+.form{
+	position:relative;
+	width:500px;
+	height:480px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color:#6A42EF;
+	border-radius: 20px;
+	margin: 30px auto;
+}
+input[type=text],[type=email],[type=date]{
+	width:470px;
+	height:35px;
+	font-size: 14px; 
+	background-color: #83F740;
+} 
+
+input[type=submit]{
+	position:relative;
+	width:150px;
+	height:40px;
+	border-radius:20px;
+	margin: 10px 150px;
+	border:0px;
+	background-color:#F15F5F ;
+	color: white;
+	font-size: 14px;  
+}
+.menu{
+	position:relative;
+	width:150px;
+	height:50px;
+	border-radius:20px;
+	margin: 30px 30px;
+	border:0px;
+	background-color:#B68A95;
+	color: white;
+	font-size: 14px; 
+}
